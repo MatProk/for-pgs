@@ -1,0 +1,26 @@
+<div style="margin-top: 50px;" class="container">
+    <div class="row">
+      <div class="col-sm">
+      </div>
+      <div class="col-sm">
+          <div class="date">
+              {{ dateNow | date: 'dd-MM-yyyy'}}
+          </div>
+          <div class="top">
+              {{name1}}
+          </div>
+        <img src="{{this.urlFoto1}}" width="450" height="500">
+      </div>
+      <div class="col-sm">
+            <div class="date">
+                {{ dateNow | date: 'dd-MM-yyyy'}}            
+            </div>
+            <div class="top">
+                {{name2}}
+            </div>
+        <img src="{{this.urlFoto2}}" width="450" height="500">
+      </div>
+      <div class="col-sm">
+      </div>
+    </div>
+</div>

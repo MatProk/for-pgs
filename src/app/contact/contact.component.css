@@ -1,0 +1,39 @@
+.center-div
+{
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 500px;
+  height: 450px;
+  color: white;
+}
+
+input,
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #666666;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.contact{
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border: 1px solid grey;
+  background-color: white;
+
+}
